@@ -1,0 +1,7 @@
+{{ define "options" }}
+<div id="album_list" class="autocomplete-items">
+{{ range . }}
+  <div class="option">{{ .Title }} ({{ .Artist }})</div>
+{{ end }}
+</div>
+{{ end }}
